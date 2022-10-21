@@ -21,8 +21,8 @@ export const mockPublicKey2018 = {
 
 export const mockKeyPair2020 = {
   type: 'Ed25519VerificationKey2020',
-  controller,
-  id: controller + '#z6MknCCLeeHBUaHu4aHSVLDCYQW9gjVJ7a63FpMvtuVMy53T',
+  controller: 'did:key:',
+  id: 'did:key:' + 'z6MknCCLeeHBUaHu4aHSVLDCYQW9gjVJ7a63FpMvtuVMy53T',
   publicKeyMultibase: 'z6MknCCLeeHBUaHu4aHSVLDCYQW9gjVJ7a63FpMvtuVMy53T',
   privateKeyMultibase: 'zrv2EET2WWZ8T1Jbg4fEH5cQxhbUS22XxdweypUbjWVzv1YD6VqYu' +
     'W6LH7heQCNYQCuoKaDwvv2qCWz3uBzG2xesqmf'

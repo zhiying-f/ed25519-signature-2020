@@ -61,6 +61,7 @@ describe('Ed25519Signature2020', () => {
         purpose: new AssertionProofPurpose(),
         documentLoader
       });
+      console.log(signedCredential);
       expect(signedCredential).to.have.property('proof');
       expect(signedCredential.proof.proofValue).to
         .equal('z3MvGcVxzRzzpKF1HA11EjvfPZsN8NAb7kXBRfeTm3CBg2gcJLQM5hZNmj6Cc' +
